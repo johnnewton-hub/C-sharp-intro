@@ -12,6 +12,14 @@ namespace c_sharp_intro
             symbols between values or valuations are considered operators ie + adds two strings together (concatenation) */
             string myName = "John Newton";
             Console.WriteLine("Hello, " + myName);
+
+            Console.WriteLine("Please enter your name...");
+
+            //Assign variable 'userName' to a value entered by the user
+
+            string userName = Console.ReadLine();
+            Console.WriteLine("You have entered your name" + userName);
+            Console.WriteLine("Hey {0}, you're looking great today!", userName);
         }
     }
 }
