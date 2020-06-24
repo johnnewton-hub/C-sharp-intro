@@ -6,7 +6,12 @@ namespace c_sharp_intro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, TechCareers");
+            //we are assigning a string value to a string variable named myName-two slashes single comment/ 
+            /*  begin multi line comments with this sytax
+            and we end multi line with
+            symbols between values or valuations are considered operators ie + adds two strings together (concatenation) */
+            string myName = "John Newton";
+            Console.WriteLine("Hello, " + myName);
         }
     }
 }
