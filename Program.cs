@@ -12,7 +12,7 @@ namespace c_sharp_intro
             string userOperator = Console.ReadLine();
             //check if user typed: add
 
-            if ( userOperator == "add " )
+            if ( userOperator == "add" )
             {
                 Console.WriteLine( "Please enter the first number:" );
                 int firstNum = Int32.Parse ( Console.ReadLine()); /*convert to integer
