@@ -6,30 +6,36 @@ namespace c_sharp_intro
     {
         static void Main(string[] args)
         {
-            //we are assigning a string value to a string variable named myName-two slashes single comment/ 
-            /*  begin multi line comments with this sytax
-            and we end multi line with
-            symbols between values or valuations are considered operators ie + adds two strings together (concatenation) */
-            string myName = "John Newton";
-            Console.WriteLine("Hello, " + myName);
+          string myString = "This is a string!"; //this is an assignment
 
-            Console.WriteLine("Please enter your name...");
+          int myInt = 42;
 
-            //Assign variable 'userName' to a value entered by the user
+          //double datatype is used for decimal pint numbers.
+          double myDouble = 33.666;
+          //Boolean is:
+          bool myBool = true;
 
-            string userName = Console.ReadLine();
-            Console.WriteLine("You have entered your name " + userName);
-            //instead of using traditional concatentation using addition operators
-            // we can use string interpolation (placeholders) to embed values in a string
-            Console.WriteLine("Hey {0}, you're looking great today!", userName);
-            //@link https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated
-            //Let's play with strings!
-            Console.WriteLine("makemeuppercase".ToUpper()); //convert to uppercase
-            Console.WriteLine("makemeLOWERrcase".ToLower()); //convert to lower case
-            Console.WriteLine("ABCDEFGHIJKLMNOPQRSTUVWXYZ".Substring(3, 3));
-            /*above starts with the third character (starts at 0), and the second number tells us how many letters to
-            stubstring takes two arguments: start postion and number of characters*/
-            Console.WriteLine("xyz".Length); //get the number os characters for the string
+          //subtraction is "-"
+          Console.WriteLine( myInt - 10 ); //32
+
+          //multiplication
+          Console.WriteLine( myInt * 2 ); //84
+
+          //division operator is "/"
+          Console.WriteLine(myInt / 2 ); //21
+
+          //modulus -returns remainder
+          Console.WriteLine(myInt % 13 ); //
+
+          //addition operator +
+          Console.WriteLine(myInt + 8); //50
+
+          Console.WriteLine( "3" + "3"); //33
+
+          Console.WriteLine("3" + 3); //???
+
+          Console.WriteLine( 3 + 6 + "3" ); //93
+
 
 
         }

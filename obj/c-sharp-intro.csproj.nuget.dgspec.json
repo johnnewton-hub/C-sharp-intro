@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johnn\\Projects\\c-sharp-intro\\c-sharp-intro.csproj": {}
+    "C:\\Users\\johnn\\Projects\\C-sharp-intro\\c-sharp-intro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johnn\\Projects\\c-sharp-intro\\c-sharp-intro.csproj": {
+    "C:\\Users\\johnn\\Projects\\C-sharp-intro\\c-sharp-intro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johnn\\Projects\\c-sharp-intro\\c-sharp-intro.csproj",
+        "projectUniqueName": "C:\\Users\\johnn\\Projects\\C-sharp-intro\\c-sharp-intro.csproj",
         "projectName": "c-sharp-intro",
-        "projectPath": "C:\\Users\\johnn\\Projects\\c-sharp-intro\\c-sharp-intro.csproj",
+        "projectPath": "C:\\Users\\johnn\\Projects\\C-sharp-intro\\c-sharp-intro.csproj",
         "packagesPath": "C:\\Users\\johnn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johnn\\Projects\\c-sharp-intro\\obj\\",
+        "outputPath": "C:\\Users\\johnn\\Projects\\C-sharp-intro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johnn\\AppData\\Roaming\\NuGet\\NuGet.Config",
