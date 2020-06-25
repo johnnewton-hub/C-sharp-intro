@@ -6,45 +6,26 @@ namespace c_sharp_intro
     {
         static void Main(string[] args)
         {
-            //logical operators 
-            Console.WriteLine( true || true ); // || is OR operator
-            Console.WriteLine( false || true );
-            Console.WriteLine( true && true ); //true //&& is AND
-            Console.WriteLine( false && true ); //False
-            Console.WriteLine(false && false); // false
+            
+            Console.WriteLine( "Please tell us if you want to add or subtract");
 
-            //how does this behave with different data=-types?
-            //Console.WriteLine( true && 1 ); it doesn't
+            string userOperator = Console.ReadLine();
+            //check if user typed: add
 
-            //comparative operators..
-            Console.WriteLine( false == false ); //true
-            Console.WriteLine ( 2.25 == 2.25 ); //true
-           // Console.WriteLine(3.14 == "3.14"); //can't two diff types
+            if ( userOperator == "add " )
+            {
+                Console.WriteLine( "Please enter the first number:" );
+                int firstNum = Int32.Parse ( Console.ReadLine()); /*convert to integer
+                https://stackoverflow.com/questions/1019793/how-can-i-convert-string-to-int*/
+                int secondNum = Int32.Parse( Console.ReadLine() );
 
-            //greater than check
-            Console.WriteLine( 6 > 7 );
-            Console.WriteLine( 10 > 5 );
+                //calculate the result.
+                int result = firstNum + secondNum;
+                Console.WriteLine( "{0} + {1} = {2}", firstNum, secondNum, result );
 
-            Console.WriteLine( 6 < 7 ); //truef
-            Console.WriteLine( 10 < 5 );//false
+            }
 
-            //greater than or equal check
-
-            Console.WriteLine( 5 >= 5 ); //true
-            Console.WriteLine( 10 <= 5 ); // false
-            Console.WriteLine(4 <= 5 ); //true 
-
-            //not equal to check.
-            Console.WriteLine(false != false ); //false
-            Console.WriteLine(true != false ); //true
-
-            Console.WriteLine( 5 != 5 ); //false
-            Console.WriteLine( 5!= 10 ); //true
-
-
-
-
-        }
+        }   
 
         
     }
