@@ -7,7 +7,7 @@ namespace c_sharp_intro
         static void Main(string[] args)
         {
             
-            Console.WriteLine( "Please tell us if you want to add or subtract");
+            Console.WriteLine( "Please tell us if you want to add or subtract or multiply");
 
             string userOperator = Console.ReadLine();
             //check if user typed: add
@@ -23,7 +23,25 @@ namespace c_sharp_intro
                 int result = firstNum + secondNum;
                 Console.WriteLine( "{0} + {1} = {2}", firstNum, secondNum, result );
 
-            }
+
+            
+                else if ( userOperator == "subtract" );
+                {
+                    Console.WriteLine( "Please enter the first number:" );
+                    int firstNum = Int32.Parse ( Console.ReadLine()); /*convert to integer
+                     https://stackoverflow.com/questions/1019793/how-can-i-convert-string-to-int*/
+                    int secondNum = Int32.Parse( Console.ReadLine() );
+
+                    //calculate the result.
+                    int result = firstNum + secondNum;
+                    Console.WriteLine( "{0} - {1} = {2}", firstNum, secondNum, result );   
+                }
+                   else
+                {
+                    Console.WriteLine( "invalid operator entered" );
+                }
+
+                    
 
         }   
 
