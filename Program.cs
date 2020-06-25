@@ -6,61 +6,46 @@ namespace c_sharp_intro
     {
         static void Main(string[] args)
         {
-          string myString = "This is a string!"; //this is an assignment
+            //logical operators 
+            Console.WriteLine( true || true ); // || is OR operator
+            Console.WriteLine( false || true );
+            Console.WriteLine( true && true ); //true //&& is AND
+            Console.WriteLine( false && true ); //False
+            Console.WriteLine(false && false); // false
 
-          int myInt = 42;
+            //how does this behave with different data=-types?
+            //Console.WriteLine( true && 1 ); it doesn't
 
-          //double datatype is used for decimal pint numbers.
-          double myDouble = 33.666;
-          //Boolean is:
-          bool myBool = true;
+            //comparative operators..
+            Console.WriteLine( false == false ); //true
+            Console.WriteLine ( 2.25 == 2.25 ); //true
+           // Console.WriteLine(3.14 == "3.14"); //can't two diff types
 
-          //subtraction is "-"
-          Console.WriteLine( myInt - 10 ); //32
+            //greater than check
+            Console.WriteLine( 6 > 7 );
+            Console.WriteLine( 10 > 5 );
 
-          //multiplication
-          Console.WriteLine( myInt * 2 ); //84
+            Console.WriteLine( 6 < 7 ); //truef
+            Console.WriteLine( 10 < 5 );//false
 
-          //division operator is "/"
-          Console.WriteLine(myInt / 2 ); //21
+            //greater than or equal check
 
-          //modulus -returns remainder
-          Console.WriteLine(myInt % 13 ); //
+            Console.WriteLine( 5 >= 5 ); //true
+            Console.WriteLine( 10 <= 5 ); // false
+            Console.WriteLine(4 <= 5 ); //true 
 
-          //addition operator +
-          Console.WriteLine(myInt + 8); //50
+            //not equal to check.
+            Console.WriteLine(false != false ); //false
+            Console.WriteLine(true != false ); //true
 
-          Console.WriteLine( "3" + "3"); //33
-
-          Console.WriteLine("3" + 3); //???
-
-          Console.WriteLine( 3 + 6 + "3" );
-           //93
-           //how to update a variable "reassign"
-          Console.WriteLine ( myInt ); //42
-
-          // myInt = myInt + "2"; can't turn myInt into a string, if originall assigned as a string it stays that way
-
-          Console.WriteLine (myInt);
-
-          myInt++; //same as typing MyInt = myInt + 1; adds one s/b 43
-
-          Console.WriteLine(myInt);
-          myInt--; //subtract one from original value s/b 42
-
-          Console.WriteLine(myInt);
-
-          myInt += 3;  //reassigned-the same as typing myInt + myInt + 3 saves typing-answer 47
-          Console.WriteLine(myInt); //42
-          
+            Console.WriteLine( 5 != 5 ); //false
+            Console.WriteLine( 5!= 10 ); //true
 
 
-
-
-
-        
 
 
         }
+
+        
     }
 }
