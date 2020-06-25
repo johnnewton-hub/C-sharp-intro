@@ -34,8 +34,31 @@ namespace c_sharp_intro
 
           Console.WriteLine("3" + 3); //???
 
-          Console.WriteLine( 3 + 6 + "3" ); //93
+          Console.WriteLine( 3 + 6 + "3" );
+           //93
+           //how to update a variable "reassign"
+          Console.WriteLine ( myInt ); //42
 
+          // myInt = myInt + "2"; can't turn myInt into a string, if originall assigned as a string it stays that way
+
+          Console.WriteLine (myInt);
+
+          myInt++; //same as typing MyInt = myInt + 1; adds one s/b 43
+
+          Console.WriteLine(myInt);
+          myInt--; //subtract one from original value s/b 42
+
+          Console.WriteLine(myInt);
+
+          myInt += 3;  //reassigned-the same as typing myInt + myInt + 3 saves typing-answer 47
+          Console.WriteLine(myInt); //42
+          
+
+
+
+
+
+        
 
 
         }
